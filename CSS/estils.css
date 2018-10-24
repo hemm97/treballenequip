@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.principl{
+    list-style: none;
+}
+.principal li>ul{
+    display: none;
+}
+.principal > li{
+    background-color: #0d64ef;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+.principal >li{
+    float: left;
+
+}
+.principal>li:hover{
+    color: #4c4cdb;
+    background-color: aliceblue;
+    border: #525fff 2px solid;
+}
+.principal li:hover>ul{
+    display: block;
+}
+
+li{
+    min-height: 20px;
+    min-width: 65px;
+}
+
+
