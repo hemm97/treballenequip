@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+/*MENU*/
 .menu *{
     list-style: none;
     text-decoration: none;
@@ -36,5 +37,25 @@ li{
     min-height: 20px;
     min-width: 100px;
 }
+/*FONS*/
+.fons{
+    width: 100%;
+    height: 1000px;
 
+}
+/*MIG*/
+.centrar{
+    width: 60%;
+    height: 1000px;
+    position:relative;
+    margin: 0px auto;
+    background-color: aquamarine;
+}
+/*Menu*/
+.principal {
+    position: absolute;
+    width: 100%;
+    height: 49px;
+    margin-right: auto;
 
+}
